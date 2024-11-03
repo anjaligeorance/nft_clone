@@ -1,27 +1,27 @@
 .hero-section {
     position: relative;
-    /* Remove the background-image line */
+    
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     color: white;
-    padding-left: 50px;
-    background-color: rgba(0, 0, 0, 0); /* Keep it transparent if needed */
+    padding-left: 150px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
   .hero-title {
-    font-family: 'Papyrus', fantasy;/* You can also use other sans-serif fonts */
-    font-size: 2.5rem; /* Adjust the size as needed */
-    color: white; /* Change the color as needed */
-    /* Additional styles can go here */
+    font-family: 'Papyrus', fantasy;
+    font-size: 2.5rem; 
+    color: white; 
+    
 }
 
   .hero-description {
     display: flex;
     align-items: center;color: rgb(146, 144, 144);
-    gap: 10px; /* Adjust as needed */
+    gap: 10px; 
   }
   .getstarted:hover {
     background-color: rgba(99, 97, 95, 0.745);
@@ -31,10 +31,10 @@
     background-color: #fafcfa00;
     color: white;
     border: 2px solid white;
-    padding: 10px 10px;
+    padding: 15px 10px;
     font-size: 1rem;
     display: inline-block;
-    align-items: center; /* Center the text vertically */
+    align-items: center; 
     white-space: nowrap;
   }
   

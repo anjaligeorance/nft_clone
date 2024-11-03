@@ -4,7 +4,7 @@ import './Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      {/* Left Section: Brand Logos */}
+      {}
       <div className="footer-left">
         <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_5szpgfto9i_e&adgrpid=155259813593&hvpone=&hvptwo=&hvadid=674893540034&hvpos=&hvnetw=g&hvrand=1209401615775775164&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9299985&hvtargid=kwd-64107830&hydadcr=14452_2316413&gad_source=1" target="_blank" rel="noopener noreferrer">
           <img src="/images/amazon.webp" alt="Amazon" className="brand-logo" />
@@ -21,31 +21,35 @@ function Footer() {
         <a href="https://www.ebay.com" target="_blank" rel="noopener noreferrer">
           <img src="/images/ebay.jpg" alt="eBay" className="brand-logo" />
         </a>
-        {/* Repeat any other logos with their respective URLs */}
+        {}
       </div>
 
-      {/* Right Section: Profile Pictures */}
-      <div className="footer-right">
-        <div className="team-members-title">Team Members</div> {/* Heading for team members */}
-        <div className="profile-stack">
-          <div className="profile">
-            <img src="/images/s1.avif" alt="User 1" className="profile-pic" />
-            <p className="username">mem-1</p>
-          </div>
-          <div className="profile">
-            <img src="/images/s2.jpg" alt="User 2" className="profile-pic" />
-            <p className="username">mem-2</p>
-          </div>
-          <div className="profile">
-            <img src="/images/s3.jpg" alt="User 3" className="profile-pic" />
-            <p className="username">mem-3</p>
-          </div>
-          <div className="profile">
-            <img src="/images/s4.jpg" alt="User 4" className="profile-pic" />
-            <p className="username">mem-4</p>
-          </div>
-        </div>
-      </div>
+      {}
+     {}
+{}
+<div className="footer-right">
+  <div className="team-members-title">Team Members</div> {}
+  <div className="profile-stack">
+    <div className="profile">
+      <img src="/images/s1.avif" alt="User 1" className="profile-pic" />
+      <div className="username">mem-1</div> {}
+    </div>
+    <div className="profile">
+      <img src="/images/s2.jpg" alt="User 2" className="profile-pic" />
+      <div className="username">mem-2</div> {}
+    </div>
+    <div className="profile">
+      <img src="/images/s3.jpg" alt="User 3" className="profile-pic" />
+      <div className="username">mem-3</div> {}
+    </div>
+    <div className="profile">
+      <img src="/images/s4.jpg" alt="User 4" className="profile-pic" />
+      <div className="username">mem-4</div> {}
+    </div>
+  </div>
+</div>
+
+
     </footer>
   );
 }
