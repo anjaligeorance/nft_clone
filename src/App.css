@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it covers the full viewport */
 }
 
 .App-logo {
@@ -12,16 +15,38 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0); /* Transparent background */
+  background-image: 
+  
+    repeating-linear-gradient(45deg, transparent, transparent 19px, rgba(152, 145, 145, 0.1) 20px);
+  opacity: 0.8; /* Adjust opacity for subtle effect */
+}
+
+
+body {
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full height */
+  background-image: linear-gradient(to right, #012228, #0c2820, #122723); /* Dark green gradient */
+  color: white; /* Default text color */
+  /* Apply your desired font family */
+}
+
+/* Optional: This can be kept or removed based on your design */
+.App-header {
+  /* The header will now inherit the gradient background from the body */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* The background color is removed to avoid conflict with the gradient */
 }
 
 .App-link {
@@ -36,3 +61,4 @@
     transform: rotate(360deg);
   }
 }
+
